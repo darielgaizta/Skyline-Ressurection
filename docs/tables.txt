@@ -1,0 +1,45 @@
+------------------
+--- RESTAURANT ---
+------------------
+CREATE TABLE restaurant (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(50),
+	location VARCHAR(50) DEFAULT NULL
+)
+--------------
+--- TICKET ---
+--------------
+CREATE TABLE ticket (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	type VARCHAR(10) DEFAULT 'Regular',
+	stat VARCHAR(10) DEFAULT 'Expired',
+	is_paid BOOLEAN DEFAULT 0,
+	email VARCHAR(100),
+	regular_code INT,
+	fastpass_code INT,
+	date_added DATE,
+	ticket_id INT
+)
+-----------------
+--- TRANSPORT ---
+-----------------
+CREATE TABLE transport (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(50),
+	schedule_start VARCHAR(5),
+	schedule_end VARCHAR(5),
+	origin VARCHAR(50),
+	destination VARCHAR(50)
+)
+---------------
+MENU RESTAURANT
+---------------
+CREATE TABLE menu_restaurant (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(50),
+	price INT,
+	description VARCHAR(100) DEFAULT NULL,
+	restaurant_id INT,
+	FOREIGN KEY (restaurant_id) REFERENCES restaurant(id)
+)
+
