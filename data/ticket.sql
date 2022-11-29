@@ -1,0 +1,10 @@
+insert into  ticket (type, stat, is_paid, email, regular_code, fastpass_code, date_added,ticket_id) values ('Fastpass', 'Active', 'False', 'RPL@gmail.com', 12345, 54321, '11-20-2022',1234567890);
+insert into  ticket (type, stat, is_paid, email, regular_code, fastpass_code, date_added,ticket_id) values ('Fastpass', 'Expired', 'False', 'RPL@gmail.com', 23456,65432 , '11-19-2022',2345678901);
+insert into  ticket (type, stat, is_paid, email, regular_code, fastpass_code, date_added,ticket_id) values ('Regular', 'Expired', 'False', 'RPL@gmail.com',34567, 76543, '11-28-2022',3456789012);
+insert into  ticket (type, stat, is_paid, email, regular_code, fastpass_code, date_added,ticket_id) values ('Fastpass', 'Active', 'False', 'RPL@gmail.com',45678, 97654, '11-14-2022',4567890123);
+insert into  ticket (type, stat, is_paid, email, regular_code, fastpass_code, date_added,ticket_id) values ('Regular', 'Expired', 'False', 'RPL@gmail.com',56789, 98765, '11-21-2022',5678901234);
+insert into  ticket (type, stat, is_paid, email, regular_code, fastpass_code, date_added,ticket_id) values ('Fastpass', 'Active', 'False', 'RPL@gmail.com', 67890, 19876, '11-17-2022',6789012345);
+insert into  ticket (type, stat, is_paid, email, regular_code, fastpass_code, date_added,ticket_id) values ('Regular', 'Active', 'False', 'RPL@gmail.com', 78901, 10987, '11-13-2022',7890123456);
+insert into  ticket (type, stat, is_paid, email, regular_code, fastpass_code, date_added,ticket_id) values ('Fastpass', 'Expired', 'False', 'RPL@gmail.com', 89012, 21098, '11-12-2022',8901234567);
+insert into  ticket (type, stat, is_paid, email, regular_code, fastpass_code, date_added,ticket_id) values ('Fastpass', 'Active', 'False', 'RPL@gmail.com', 90123,32109, '11-28-2022',9012345678);
+insert into  ticket (type, stat, is_paid, email, regular_code, fastpass_code, date_added,ticket_id) values ('Fastpass', 'Active', 'False', 'RPL@gmail.com', 10123, 32101, '11-10-2022',8765432109);
