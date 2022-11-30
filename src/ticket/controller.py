@@ -10,7 +10,7 @@ from utils.mail import Mail
 from .models import Ticket
 
 # Database manager instance
-DB = DatabaseManager('root', '#Locked05', database='skyline')
+DB = DatabaseManager('user', 'password', database='skyline')
 
 
 class TicketController:

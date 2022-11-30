@@ -3,7 +3,7 @@
 
 from utils.database import DatabaseManager
 
-DB = DatabaseManager('root', '#Locked05', database='skyline')
+DB = DatabaseManager('user', 'password', database='skyline')
 
 
 class TransportController:
