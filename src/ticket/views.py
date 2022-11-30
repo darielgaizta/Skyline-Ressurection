@@ -319,10 +319,10 @@ class TicketView:
         ticket_lifetime.grid(row=0, column=0)
 
         if t_type == 'Regular':
-            id_label = tk.Label(detail_ticket_container, text=("ID:", t_regular_code),
+            id_label = tk.Label(detail_ticket_container, text=("ID:", t_ticket_id),
                                 fg="white", bg=TicketView.BG_03, font=("Inter", 25))
         else:
-            id_label = tk.Label(detail_ticket_container, text=("ID:", t_fastpass_code),
+            id_label = tk.Label(detail_ticket_container, text=("ID:", t_ticket_id),
                                 fg="white", bg=TicketView.BG_03, font=("Inter", 25))
         id_label.grid(row=1, column=0)
 
