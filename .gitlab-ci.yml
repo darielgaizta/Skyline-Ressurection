@@ -1,0 +1,12 @@
+stages:
+  - pytest
+
+test_python:
+  image: python:lastest
+  stage: pytest
+  rules:
+    - if: ($CI_COMMIT_BRANCH == "master" && $CI_PIPELINE_SOURCE == "merge_request_event" || $CI_PIPELINE_SOURCE == "push")
+  before_script:
+    - 'python -m pip install -r requirements.txt'
+  script:
+    - pytest
