@@ -3,11 +3,12 @@
 
 from utils.database import DatabaseManager
 
-DB = DatabaseManager('root', 'ZiagSQL21_', database='skyline')
+DB = DatabaseManager('root', '#Locked05', database='skyline')
+
 
 class TransportController:
-	# Use case: MELIHAT JADWAL TRANSPORTASI UMUM
-	def get_all_transports():
-		return DB.execute_query(r'''
+    # Use case: MELIHAT JADWAL TRANSPORTASI UMUM
+    def get_all_transports():
+        return DB.execute_query(r'''
 			SELECT * FROM transport
 		''')

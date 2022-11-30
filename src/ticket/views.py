@@ -378,14 +378,6 @@ class TicketView:
             frame), bg=TicketView.BG_01)
         back_btn.grid(row=0, column=0, padx=(0, 10), sticky='n')
 
-        # # Search form input
-        # search_entry = ttk.Entry(window, width=125)
-        # search_entry.grid(
-        #     row=0,
-        #     column=1,
-        #     columnspan=2
-        # )
-
         # Notification container
         notification_container = tk.Canvas(
             window, bg="#CF5C36", highlightthickness=0)
