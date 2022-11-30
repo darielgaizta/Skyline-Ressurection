@@ -1,0 +1,10 @@
+insert into menu_restaurant (name, price, description,restaurant_id) values ('Ice cream', 50000, 'Ice cream vanilla',4);
+insert into menu_restaurant (name, price, description,restaurant_id) values ('Omlet', 70000, 'Telor dadar amerika',2);
+insert into menu_restaurant (name, price, description,restaurant_id) values ('Bakmi ayam', 40000, 'Bakmi ayam dengan bahan import',5);
+insert into menu_restaurant (name, price, description,restaurant_id) values ('Telor dadar', 30000, 'Telor isi melimpah',6);
+insert into menu_restaurant (name, price, description,restaurant_id) values ('Ayam bakar', 65000, 'Ayam bakar arang',1);
+insert into menu_restaurant (name, price, description,restaurant_id) values ('Nasi goreng', 80000, 'Nasi goreng khas masako',10);
+insert into menu_restaurant (name, price, description,restaurant_id) values ('Steak ayam', 10000, 'Steak ayam disajikan dengan hotplate',7);
+insert into menu_restaurant (name, price, description,restaurant_id) values ('Ayam geprek', 15000, 'Ayam geprek dengan sambal domba membara',8);
+insert into menu_restaurant (name, price, description,restaurant_id) values ('Iga bakar', 35000, 'Iga dengan bumbu rahasia',9);
+insert into menu_restaurant (name, price, description,restaurant_id) values ('Soto betawi', 55000, 'Soto khas betawi',3);

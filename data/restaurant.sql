@@ -1,0 +1,10 @@
+insert into restaurant (name, location) values ('Indonesian Bistro', 'Dago');
+insert into restaurant (name, location) values ('Solaria', 'Rancaekek');
+insert into restaurant (name, location) values ('Soto betawi Mamat', 'Cisitu Lama');
+insert into restaurant (name, location) values ('Mixue', 'Pasteur');
+insert into restaurant (name, location) values ('Bakmi Utopia', 'Balonggede');
+insert into restaurant (name, location) values ('Warkop Geulis', 'Sukajadi');
+insert into restaurant (name, location) values ('Eatboss', 'Cisitu Indah');
+insert into restaurant (name, location) values ('Upnormal', 'Pasteur');
+insert into restaurant (name, location) values ('Iga bakar jangkung', 'Kanayakan');
+insert into restaurant (name, location) values ('Warteg Rinjani', 'Cigadung');

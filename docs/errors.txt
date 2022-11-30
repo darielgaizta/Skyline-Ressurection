@@ -1,0 +1,19 @@
+SK01: Invalid payment code.
+Payment code input by the user is not valid, try to enter the correct payment code.
+-----
+SK02: Insufficient Balance.
+User has insufficient balance, try to top-up Skyline wallet or pay offline at the counter.
+-----
+SK03: Ticket is not active.
+-----
+SK04: Ticket is already fastpass.
+-----
+SK05: Value contraints are not properly complied.
+-----
+SK06: Ticket not found.
+-----
+SK07: Invalid query. Internal error where the program input an invalid query.
+-----
+SK08: Duplicate ID was found.
+-----
+SK09: Cannot identify ticket. This error occurs when SK06 or SK08 wasa triggered while searching for ticket.

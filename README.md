@@ -1,2 +1,2 @@
-# Skyline-Ressurection
+# Skyline-Resurrection
 Skyline ultimate version. #BismillahTerakhirRevisi
