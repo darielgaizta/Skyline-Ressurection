@@ -121,7 +121,7 @@ class TicketView:
         form_label.grid(
             row=4,
             column=1,
-            padx=(0, 410),
+            padx=(0, 450),
             pady=20
         )
 
@@ -131,7 +131,7 @@ class TicketView:
         email_label.grid(
             row=5,
             column=1,
-            padx=(0, 540)
+            padx=(0, 570)
         )
         email_entry = ttk.Entry(window, width=100)
         email_entry.grid(
@@ -145,7 +145,7 @@ class TicketView:
         total_label.grid(
             row=7,
             column=1,
-            padx=(0, 500)
+            padx=(0, 530)
         )
         total_entry = ttk.Entry(window, width=100)
         total_entry.grid(
@@ -153,6 +153,9 @@ class TicketView:
             column=1,
             padx=(0, 0)
         )
+        max_ticket_label = tk.Label(window, text="*Maks pembelian jumlah tiket dalam satu kali pembayaran adalah 10",
+                                    font=("Inter", 10, "italic"), bg=TicketView.BG_01, fg="red")
+        max_ticket_label.grid(row=9, column=1, padx=(0, 200))
 
         # # Submit button
         def submit():
@@ -313,19 +316,17 @@ class TicketView:
         if t_type == 'Regular':
             ticket_lifetime = tk.Label(
                 detail_ticket_container, text="Skyline Reguler - ONE DAY TICKET", justify='left', font=("Inter", 25, "bold"), bg=TicketView.BG_03, fg="white")
-        else:
-            ticket_lifetime = tk.Label(
-                detail_ticket_container, text="Skyline Fastpass - ONE DAY TICKET", justify='left', font=("Inter", 25, "bold"), bg=TicketView.BG_03, fg="white")
-        ticket_lifetime.grid(row=0, column=0)
-
-        if t_type == 'Regular':
             id_label = tk.Label(detail_ticket_container, text=("ID:", t_regular_code),
                                 fg="white", bg=TicketView.BG_03, font=("Inter", 25))
         else:
+            ticket_lifetime = tk.Label(
+                detail_ticket_container, text="Skyline Fastpass - ONE DAY TICKET", justify='left', font=("Inter", 25, "bold"), bg=TicketView.BG_03, fg="white")
             id_label = tk.Label(detail_ticket_container, text=("ID:", t_fastpass_code),
                                 fg="white", bg=TicketView.BG_03, font=("Inter", 25))
+        ticket_lifetime.grid(row=0, column=0)
         id_label.grid(row=1, column=0)
 
+        # Show ticket status
         status_label = tk.Label(detail_ticket_container, text=("Status:", t_stat),
                                 fg="white", bg=TicketView.BG_03, font=("Inter", 25))
         status_label.grid(row=2, column=0)
@@ -576,7 +577,7 @@ class TicketView:
         logo.grid(row=0, column=0)
 
         # Back button
-        back_img = tk.PhotoImage(file=PATH_IMG+'\\back.png')
+        back_img = tk.PhotoImage(file=PATH_IMG+"\\back.png")
         back_btn = tk.Button(window, image=back_img, command=lambda: TicketView.back(
             frame), bg=TicketView.BG_01)
         back_btn.grid(row=0, column=0, padx=(0, 10), sticky='n')
