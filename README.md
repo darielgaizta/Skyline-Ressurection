@@ -10,7 +10,8 @@ ID       | Developer Name
 18220009 | Fatih Darielma Gaizta
 18220039 | Alvito Rizqi Sobri
 18220067 | Tania Junardi Chua
-18220079 | Zafran Divac Azzahra Rizqi Sobri
+18220079 | Zafran Divac Azzahra 
+18220077 | William Gunawan
 
 
 ## How To Run
